@@ -1,0 +1,16 @@
+<div class="box center-div">
+<ul class="align-left">
+<li>Table de : {{n}}</li> ①
+<li> <pre>---------</pre> </li>
+<li *ngFor="let item of [].constructor(10); let i = index"> ②
+<span class="nmulti">{{n}}</span>
+<span>&nbsp;&nbsp;x </span>
+<span>{{i+1}}</span>
+<span> = </span>
+<span>{{n*(i+1)}}</span>
+</li>
+</ul>
+</div>
+
+<!-- <p>page-table-mult works!</p> -->
+<app-table-multiplication></app-table-multiplication>

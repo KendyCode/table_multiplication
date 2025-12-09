@@ -1,10 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-
-const routes: Routes = [];
-
+import { PageTableMultComponent } from './page-table-mult/page-table-mult';
+const routes: Routes = [
+{path: 'table-multiplication', component: PageTableMultComponent }
+];
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+imports: [RouterModule.forRoot(routes)],
+exports: [RouterModule]
 })
 export class AppRoutingModule { }

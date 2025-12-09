@@ -1,0 +1,10 @@
+import { Component } from '@angular/core';
+@Component({
+selector: 'app-page-table-mult',
+standalone:false,
+templateUrl: './page-table-mult.html',
+styleUrls: ['./page-table-mult.css']
+})
+export class PageTableMultComponent {
+  n: number = 2
+}
